@@ -12,8 +12,6 @@ declare global {
 
 ;
 
-import "../../../frontend/src/pages/Pages.css";
-
 
 // import AdminStats from "../components/AdminStats";
 
