@@ -12,7 +12,7 @@ declare global {
 
 ;
 
-import "../pages/Pages.css";
+
 
 
 // import AdminStats from "../components/AdminStats";

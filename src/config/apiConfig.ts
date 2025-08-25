@@ -1,6 +1,15 @@
 import axios from 'axios';
 
-export const API_URL = "http://localhost:8080/api";
+//export const API_URL = "http://localhost:8080/api";
+/// <reference types="vite/client" />
+
+// Prefer a single env var for backend URL
+let API_URL = import.meta.env.VITE_HOUSEMAN_API_URL || '';
+
+// Fallback for local development
+if (!API_URL) {
+  API_URL = 'http://localhost:8080/api';
+}
 
 // Create axios instance
 const api = axios.create({
