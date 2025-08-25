@@ -1,0 +1,14 @@
+.uvc-container {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.uvc-code {
+  font-weight: bold;
+}
+
+.user-name {
+  font-size: 0.9em;
+  color: #666;
+} 
